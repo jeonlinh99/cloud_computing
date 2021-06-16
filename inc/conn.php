@@ -1,6 +1,6 @@
 <?php
-$severname=	"mariadb";
-$username= "ec2-user";
+$severname=	"3.141.172.244";
+$username= "jeonlinh";
 $pass="jeonlinh@";
 $dbname="tunesource";
 $conn= mysqli_connect($severname, $username, $pass, $dbname);
