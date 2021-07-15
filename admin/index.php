@@ -26,21 +26,13 @@ include('includes/conn.php');
                 <input type="text" name="songPrice" class="form-control " placeholder="Enter price of song">
             </div>
              <div class="form-group">
-                <label> Singer </label>
+                <label> Producer </label>
                 <input type="text" name="artistName" class="form-control" placeholder="Enter Singer of the song">
             </div>
-             <div class="form-group">
-                <label> Genre </label>
-                <input type="text" name="genre" class="form-control" placeholder="Enter genre of the song">
-            </div>
             <div class="form-group" >
-                <label>Choose the image for song</label>
+                <label>Choose the image for toy</label>
                 <input type="hidden" name="size" value="1000000">
                <input type="file" name="songImage" id="songImage" accept=".jpg, .png" >
-            </div>
-             <div class="form-group">
-                <label>Choose the audio for song</label>
-               <input type="file" name="songMp3" accept=".mp3">
             </div>
         </div>
         <div class="modal-footer">
@@ -57,9 +49,9 @@ include('includes/conn.php');
 <!-- DataTales Example -->
 <div class="card shadow mb-4">
   <div class="card-header py-3">
-    <h6 class="m-0 font-weight-bold text-primary">Manage Song
+    <h6 class="m-0 font-weight-bold text-primary">Manage Toys
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addadminprofile">
-              Add Song
+              Add Toy
             </button>
     </h6>
   </div>
@@ -89,12 +81,11 @@ include('includes/conn.php');
       <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
         <thead>
           <tr>
-            <th> songID </th>
-            <th> songName</th>
-            <th> songPrice </th>
-            <th> songImage</th>
-            <th> songMp3</th>
-            <th> artistName</th>
+            <th> toyID </th>
+            <th> Name of the toy</th>
+            <th> Price of the toy</th>
+            <th> Image of the toy</th>
+            <th> Producer</th>
             <th> Genre</th>
             <th>EDIT </th>
             <th>DELETE </th>
@@ -114,7 +105,6 @@ include('includes/conn.php');
             <th><?php echo $row['songPrice']; ?> </th>
             <th><div class="panel-body"><img src="../img/<?php echo $row['songImage']?>" class="img-responsive" style="width:100%" alt="Image">
         </div></th>
-            <th> <audio songID="songID" class="audio" style="width: 247px" controls controlsList="autodownload" ><source src="../songmp3/<?php echo $row['songMp3']?>" type="audio/mpeg" > </th>
             <th><?php echo $row['artistName']; ?></th> 
             <th><?php echo $row['genreName']; ?></th>     
               <td>

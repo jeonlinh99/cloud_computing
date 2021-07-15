@@ -9,7 +9,7 @@ include('includes/conn.php');
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary"> EDIT Song </h6>
+            <h6 class="m-0 font-weight-bold text-primary"> EDIT Toy </h6>
         </div>
        <div class="card-body">
            <?php
@@ -36,7 +36,7 @@ include('includes/conn.php');
                 <input type="text" name="edit_price" value="<?php echo $row['songPrice'] ?>" class="form-control " placeholder="Enter price of song">
             </div>
              <div class="form-group">
-                <label> Singer </label>
+                <label> Producer </label>
                 <input type="text" name="edit_artistName" value="<?php echo $row['artistName'] ?>" class="form-control" placeholder="Enter Singer of the song">
             </div>
              <div class="form-group">
@@ -44,18 +44,12 @@ include('includes/conn.php');
                 <input type="text" name="edit_genre" value="<?php echo $row['genreName'] ?>" class="form-control" placeholder="Enter genre of the song">
             </div>
             <div class="form-group" >
-                <label>Choose the image for song</label>
+                <label>Choose the image for toy</label>
                 <div class="panel-body"><img src="../img/<?php echo $row['songImage']?>" class="img-responsive" style="width:30%" alt="Image">
         </div>
                <input type="file" name="edit_songImage" >
             </div>
-             <div class="form-group">
-                <label>Choose the audio for song</label>
-                 <div class="panel-body">
-                    <audio songID="songID" class="audio" style="width: 247px" controls controlsList="autodownload" ><source src="../songmp3/<?php echo $row['songMp3']?>" type="audio/mpeg" >
-        </div>
-               <input type="file" name="edit_songMp3" accept=".MP3" >
-            </div>
+             
            
             <a href="editsong.php" class="btn btn-danger"> CANCEL </a>
           <button type="submit" name="updatebtn" class="btn btn-primary"> Update </button>

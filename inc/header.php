@@ -60,7 +60,7 @@
     </ul>
  <form method= "GET" class="navbar-form navbar-right" action="search.php">
   <div class="input-group">
-    <input type="search" class="form-control" placeholder="Search for song" name="Search">
+    <input type="search" class="form-control" placeholder="Enter name of toys ?" name="Search">
     <div class="input-group-btn">
       <button class="btn btn-default" type="submit" name="search" value="Search">
         <i class="glyphicon glyphicon-search"></i>

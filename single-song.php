@@ -25,20 +25,8 @@ include('inc/header.php');
         <h3>Genre: <?php echo $row['genreName']?></h3>
     </div>   
      <div class="col-sm-9 col-md-6">
-        <h3>Present by: <?php echo $row['artistName']?></h3>
+        <h3>Producer by: <?php echo $row['artistName']?></h3>
     </div>
-    <audio songID= "songID" class="audio"controls controlsList="nodownload" ontimeupdate="myAudio(this)" style="width: 250px">
-          <source src="songmp3/<?php echo $row['songMp3'] ?>" type="audio/mpeg">
-          </audio>
-          <script type="text/javascript">
-            function myAudio(event){
-              if(event.currentTime >60){
-                event.currentTime=0;
-                event.pause();
-                alert ("Payment to listen to the full song!")
-              }
-            }
-          </script>
 <p style="color: red"> Price: <?php echo $row['songPrice']."$";?></p>
     <p> </p>
 <form method="POST" action="cart.php" class="quantity">
