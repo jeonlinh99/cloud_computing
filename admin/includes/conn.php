@@ -2,7 +2,7 @@
 $severname=	"3.141.172.244";
 $username= "jeonlinh";
 $pass="jeonlinh@";
-$dbname="tunesouce";
+$dbname="tunesource";
 $conn= mysqli_connect($severname, $username, $pass, $dbname);
 
 if (!$conn) 
