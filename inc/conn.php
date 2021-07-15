@@ -1,7 +1,7 @@
 <?php
-$severname=	"52.6.114.59";
+$severname=	"3.141.172.244";
 $username= "jeonlinh";
-$pass="jeonlinh179699718@";
+$pass="jeonlinh@";
 $dbname="tunesource";
 $conn= mysqli_connect($severname, $username, $pass, $dbname);
 
