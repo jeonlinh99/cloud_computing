@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Tune Music</title>
+  <title>TOYs For Children</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
  <!-- Bootstrap CSS -->
@@ -50,11 +50,11 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Tune Music</a>
+      <a class="navbar-brand" href="#">Bring Happy for Children</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.php">Home</a></li>
-      <li><a href="index.php">Songs</a></li>
+      <li><a href="index.php">Toys</a></li>
       <li><a href="login.php">Login</a></li>
       <li><a href="cart.php">Cart</a></li>
     </ul>

@@ -24,7 +24,7 @@
 <li class="nav-item">
   <a class="nav-link" href="index.php">
     <i class="fas fa-fw fa-chart-area"></i>
-    <span>Manage Song</span></a>
+    <span>Manage Toys</span></a>
 </li>
 <li class="nav-item">
   <a class="nav-link" href="register.php">

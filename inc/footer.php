@@ -3,12 +3,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h4> TUNE MUSIC </h4>
+                    <h4> TOYs for Children </h4>
                 </div>
                 <div class="col-lg-3 col-sm-2 col-xs-3">
                     <h3> Contact Us</h3>
                     <ul>
-                        <li><a class="email"href="#"> tunemusic@gmail.com </a></li>
+                        <li><a class="email"href="#"> ttoysatn@gmail.com </a></li>
                         <li> <p> Twitter.com</p> </li>
                         <li> <p> Facebook.com </p> </li>
                     </ul>
@@ -30,7 +30,7 @@
                           
     <div class="footer-bottom">
         <div class="container">
-            <p class="pull-left copyright"> Copyright © TuneMusic 2021. All right reserved. </p>
+            <p class="pull-left copyright"> Copyright © ATNcompany 2021. All right reserved. </p>
        
         </div>
     </div>
