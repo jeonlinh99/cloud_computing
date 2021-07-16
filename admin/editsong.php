@@ -40,7 +40,7 @@ include('includes/conn.php');
                 <input type="text" name="edit_artistName" value="<?php echo $row['artistName'] ?>" class="form-control" placeholder="Enter Singer of the song">
             </div>
              <div class="form-group">
-                <label> Genre </label>
+                <label> Material </label>
                 <input type="text" name="edit_genre" value="<?php echo $row['genreName'] ?>" class="form-control" placeholder="Enter genre of the song">
             </div>
             <div class="form-group" >
