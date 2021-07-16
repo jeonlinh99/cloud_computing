@@ -22,7 +22,7 @@ include('inc/header.php');
 
     </div> 
   <div class="col-sm-9 col-md-6">
-        <h3>Genre: <?php echo $row['genreName']?></h3>
+        <h3>Material: <?php echo $row['genreName']?></h3>
     </div>   
      <div class="col-sm-9 col-md-6">
         <h3>Producer by: <?php echo $row['artistName']?></h3>
