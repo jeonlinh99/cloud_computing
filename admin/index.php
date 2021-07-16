@@ -86,7 +86,7 @@ include('includes/conn.php');
             <th> Price of the toy</th>
             <th> Image of the toy</th>
             <th> Producer</th>
-            <th> Genre</th>
+            <th> Material</th>
             <th>EDIT </th>
             <th>DELETE </th>
           </tr>
