@@ -19,15 +19,19 @@ include('includes/conn.php');
 
             <div class="form-group">
                 <label> Name </label>
-                <input type="text" name="songName" class="form-control" placeholder="Enter name of the song">
+                <input type="text" name="songName" class="form-control" placeholder="Enter name of the toy">
             </div>
             <div class="form-group">
                 <label>Price</label>
-                <input type="text" name="songPrice" class="form-control " placeholder="Enter price of song">
+                <input type="text" name="songPrice" class="form-control " placeholder="Enter price of toy">
             </div>
              <div class="form-group">
                 <label> Producer </label>
-                <input type="text" name="artistName" class="form-control" placeholder="Enter Singer of the song">
+                <input type="text" name="artistName" class="form-control" placeholder="Enter producer of the toy">
+            </div>
+          <div class="form-group">
+                <label> Material </label>
+                <input type="text" name="genreID" class="form-control" placeholder="Enter material of the toy">
             </div>
             <div class="form-group" >
                 <label>Choose the image for toy</label>
