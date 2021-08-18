@@ -1,5 +1,5 @@
 <?php
-$severname=	"3.141.172.244";
+$severname=	"localhost";
 $username= "jeonlinh";
 $pass="jeonlinh@";
 $dbname="tunesource";
